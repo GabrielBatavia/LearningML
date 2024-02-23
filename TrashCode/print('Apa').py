@@ -157,4 +157,17 @@ print ('Commit day 19,1')
 print ('Commit day 19,1')
 print ('Commit day 19,1')
 
+def gabriel_batavia(name, age):
+    print('Halo Gabriel dan ' + name)
+    print (name + ' Umurmu pasti ' + str(age))
+
+name = input('Input your name : ')
+age = input('Enter your age: ')
+gabriel_batavia(name, age)
+
+def perhitungan(num1):
+    return 5*num1 + num1 + num1 + num1
+
+print(perhitungan(10))
+
 
