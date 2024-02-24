@@ -177,5 +177,7 @@ print ('Commit day 20,1')
 print ('Commit day 20,1')
 
 indo = open("c:/Users/USER/Documents/learnML/TrashCode/Indonesia.txt", 'r')
-print(indo.readline())
+print(indo.readlines()[4])
 indo.close()
+
+print ('Commit day 21,1')
